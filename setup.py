@@ -1,6 +1,5 @@
 import setuptools
-print(1)
-print(setuptools.find_packages())
+
 setuptools.setup(
     name="test",
     version="0.1.0",
@@ -8,9 +7,8 @@ setuptools.setup(
     author="userMS",
     author_email="marcosae@hotmail.it",
     description="Testing github package",
-    packages=setuptools.find_packages(),
-    install_requires=[
-    ],
+    packages=['mypackage'],
+    install_requires=['numpy'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
