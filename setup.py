@@ -1,4 +1,5 @@
 import setuptools
+print(1)
 print(setuptools.find_packages())
 setuptools.setup(
     name="test",
