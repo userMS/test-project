@@ -1,5 +1,5 @@
 import setuptools
-
+print(setuptools.find_packages())
 setuptools.setup(
     name="test",
     version="0.1.0",
