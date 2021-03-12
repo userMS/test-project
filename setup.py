@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name="test",
+    name="test-project",
     version="0.1.0",
     url="https://github.com/userMS/test-project",
     author="userMS",
