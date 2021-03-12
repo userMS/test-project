@@ -7,7 +7,7 @@ setuptools.setup(
     author="userMS",
     author_email="marcosae@hotmail.it",
     description="Testing github package",
-    packages=['mypackage'],
+    packages=setuptools.find_packages(),
     install_requires=['numpy'],
     classifiers=[
         "Programming Language :: Python :: 3",
