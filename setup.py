@@ -10,8 +10,8 @@ dt = datetime.fromisoformat(os.getenv("CI_COMMIT_TIMESTAMP"))
 offset = dt.tzinfo.utcoffset(dt).seconds
 timestamp = round(mktime(dt.timetuple()) - offset)
 setuptools.setup(
-    name=os.getenv("PACKAGE_NAME"),
-    version="{}".format(os.getenv("PACKAGE_VERSION")),
+    name="test",
+    version="0.1.0",
     url="https://github.com/userMS/test-project",
     author="userMS",
     author_email="marcosae@hotmail.it",
