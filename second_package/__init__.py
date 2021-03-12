@@ -1,1 +1,1 @@
-from .package_funcs import *
+from .package_funcs import sum_multiply
