@@ -6,7 +6,7 @@ from time import mktime
 import setuptools
 
 
-dt = datetime.fromisoformat(os.getenv("CI_COMMIT_TIMESTAMP"))
+dt = datetime.fromisoformat('2021-03-12')
 offset = dt.tzinfo.utcoffset(dt).seconds
 timestamp = round(mktime(dt.timetuple()) - offset)
 setuptools.setup(
